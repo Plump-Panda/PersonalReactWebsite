@@ -7,7 +7,7 @@ export default class Courses extends Component{
     render(){
         return(
             <div id="coursesSection" className="sectionPositioning" >
-                <Card className="cardPositioning">
+                <Card id="courseCardPositioning">
                     <Card.Header>Relevant Coursework</Card.Header>
                     <Card.Body>
                         <Card.Text>List of courses</Card.Text>
