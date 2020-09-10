@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
 
-export default class Intro extends Component{
+export default class Courses extends Component{
     render(){
         return(
-            <div id="introSection" className="sectionPositioning">
+            <div id="coursesSection" className="sectionPositioning" >
                 <Card className="cardPositioning">
-                    <Card.Header>Hello world! I'm a Software Devloper</Card.Header>
+                    <Card.Header>Relevant Coursework</Card.Header>
                     <Card.Body>
-                        <Card.Text>Info About me</Card.Text>
+                        <Card.Text>List of courses</Card.Text>
                     </Card.Body>
                 </Card>
             </div>

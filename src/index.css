@@ -25,12 +25,19 @@ code {
 }
 
 #introSection{
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
   background-color: #6F7864;
 }
 
-#introCard{
+#coursesSection{
+  background-color: #CEC6BC;
+}
+
+.sectionPositioning{
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.cardPositioning{
   width: 50%;
   margin-left: 25%;
 }
