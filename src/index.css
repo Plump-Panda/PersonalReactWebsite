@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+/* *{
+  border-color: red;
+  border-width: 1px;
+  border-style: dashed;
+} */
 
 #header{
   font-family: 'Montserrat', sans-serif;
@@ -32,6 +37,19 @@ code {
   background-color: #CEC6BC;
 }
 
+#experienceSection{
+  background-color: #6F6D66;
+}
+
+#coursesHeader{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+}
+
 .sectionPositioning{
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -40,4 +58,12 @@ code {
 .cardPositioning{
   width: 50%;
   margin-left: 25%;
+}
+
+.experienceCardDeck{
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 100px;
+  margin-left: 10px;
+  margin-top: 50px;
 }
