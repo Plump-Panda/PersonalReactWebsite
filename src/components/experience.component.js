@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
 import {CardDeck} from 'react-bootstrap';
+import {Image} from 'react-bootstrap';
+import shipImage from '../images/ship.jpg'
+import reactImage from '../images/react.png'
+import githubImage from '../images/github.png';
 
 export default class Experience extends Component{
 
@@ -13,60 +17,79 @@ export default class Experience extends Component{
                 <h2 id="coursesHeader"> Work + Fun</h2>
                 <CardDeck className="experienceCardDeck">
                     <Card className="experienceCard">
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header>Technical Co-op</Card.Header>
+                        <Card.Img variant="top" as={Image} src={shipImage} fluid={true} alt="Card image" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                        <Card.Title>Lockheed Martin, CA</Card.Title>
+                        <Card.Text style={{textAlign:"center"}}>
+                        Used a Data Distribution Service network based on a publish/subscribe architecture to send topics from a Java based simulator to a C++ backend.
+                        Also implemented quality of life changes to our existing simulator in Java.
+                        I worked in agile and used an agile project management system to organize and schedule stories. Additionally performed code reviews for teammates
+
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">May 2020 - Aug 2020</small>
                         </Card.Footer>
                     </Card>
                     <Card className="experienceCard">
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header>Web Developer</Card.Header>
+                        <Card.Img variant="top" as={Image} src={reactImage} fluid={true} alt="Card image" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                        <Card.Title>Okeanos</Card.Title>
+                        <Card.Text style={{textAlign:"center"}}>
+                            Worked in a team of 5 to develop a webpage from scratch using HTML5, CSS3, and Javascript.
+                            Communicated effectively between app dev team and supervisor to ensure consistency across platforms.
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Sept 2019 - Nov 2019</small>
                         </Card.Footer>
                     </Card>
                 </CardDeck>
                 <CardDeck className="experienceCardDeck">
-                    <Card className="experienceCard">
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                     <Card className="experienceCard">
+                        <Card.Header>Fun Project!~</Card.Header>
+                        <Card.Img variant="top" as={Image} src={reactImage} fluid={true} alt="Card image" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                        <Card.Title>Personal Website</Card.Title>
+                        <Card.Text style={{textAlign:"center"}}>
+                            You're on it right now! Created using React and deployed with Google's Firebase
+
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Created Sept 2020</small>
                         </Card.Footer>
                     </Card>
                     <Card className="experienceCard">
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header>Fun Project!~</Card.Header>
+                        <Card.Img variant="top" as={Image} src={reactImage} fluid={true} alt="Card image" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                        <Card.Title>Dalhousie University Computer Science Viewer</Card.Title>
+                        <Card.Text style={{textAlign:"center"}}>
+                            The official university website looked ugly and didn't have everything easily accessible. So I made my own version! Scrapped the official websites using python, used React to display
+                            everything, and deployed it to the web using Google's Firebase
+
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Created Sept 2020</small>
                         </Card.Footer>
                     </Card>
                 </CardDeck>
+                <Card id="githubCard">
+                    <Card.Header><strong>Other Fun Projects</strong></Card.Header>
+                    <Card.Body>
+                        <h4><a href="https://github.com/Plump-Panda">My Github</a></h4>
+                        <br/>
+                        <Card.Img variant="top" as={Image} src={githubImage} fluid={true} alt="Card image" />
+                        <Card.Text style={{textAlign:"center"}}>
+                            There's a bunch of other uncompleted projects here so feel free to take a look at the code!
+                            I only have my properly deployed projects on display here.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
             </div>
         );
     }

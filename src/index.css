@@ -92,6 +92,12 @@ code {
   margin-top: 50px;
 }
 
+#githubCard{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2.5%;
+}
+
 .hrefRecolour{
   color: #61abe8;
 }
