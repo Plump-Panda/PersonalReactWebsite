@@ -88,16 +88,37 @@ code {
   width: 100%;
   padding-left: 150px;
   padding-right: 100px;
-  margin-left: 10px;
   margin-top: 50px;
 }
 
 #githubCard{
-  width: 50%;
-  margin-left: 25%;
+  width: 25%;
+  margin-left: 38%;
   margin-top: 2.5%;
 }
 
 .hrefRecolour{
   color: #61abe8;
+}
+
+.cardImageSize{
+  width: 50%;
+}
+
+.codeType{
+  margin-top: 25px;
+}
+
+.codeTag{
+  float: left;
+  margin-left: 20px;
+  border-color: #4e66ba;
+  border-radius: 10px;
+  border-width: 0.1em;
+  border-style: solid;
+  padding: 5px;
+}
+
+#green{
+  border-color: green;
 }
