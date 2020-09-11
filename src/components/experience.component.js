@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
 import {CardDeck} from 'react-bootstrap';
 import {Image} from 'react-bootstrap';
-import shipImage from '../images/ship.jpg';
+import shipImage from '../images/lm.png';
 import reactImage from '../images/react.png';
 import mywebsiteImage from '../images/mywebsite.jpg';
 import githubImage from '../images/github.png';
@@ -19,7 +19,7 @@ export default class Experience extends Component{
                 <h2 id="coursesHeader"> Work + Fun</h2>
                 <CardDeck className="experienceCardDeck">
                     <Card className="experienceCard">
-                        <Card.Header>Technical Co-op</Card.Header>
+                        <Card.Header style={{fontSize: '1.5em'}}>Technical Co-op</Card.Header>
                         <Card.Img variant="top" as={Image} src={shipImage} fluid={true} alt="Card image" />
                         <Card.Body>
                         <Card.Title>Lockheed Martin, CA</Card.Title>
@@ -38,7 +38,7 @@ export default class Experience extends Component{
                         </Card.Footer>
                     </Card>
                     <Card className="experienceCard">
-                        <Card.Header>Web Developer</Card.Header>
+                        <Card.Header style={{fontSize: '1.5em'}}>Web Developer</Card.Header>
                         <Card.Img variant="top" as={Image} src={reactImage} fluid={true} alt="Card image" />
                         <Card.Body>
                         <Card.Title>Okeanos</Card.Title>
@@ -57,7 +57,7 @@ export default class Experience extends Component{
                 </CardDeck>
                 <CardDeck className="experienceCardDeck">
                      <Card className="experienceCard">
-                        <Card.Header>Fun Project!~</Card.Header>
+                        <Card.Header style={{fontSize: '1.5em'}}>Fun Project!~</Card.Header>
                         <Card.Img variant="top" as={Image} src={mywebsiteImage} fluid={true} alt="Card image" />
                         <Card.Body>
                         <Card.Title>Personal Website</Card.Title>
@@ -75,7 +75,7 @@ export default class Experience extends Component{
                         </Card.Footer>
                     </Card>
                     <Card className="experienceCard">
-                        <Card.Header>Fun Project!~</Card.Header>
+                        <Card.Header style={{fontSize: '1.5em'}}>Fun Project!~</Card.Header>
                         <Card.Img  variant="top" as={Image} src={courseViewerImage} fluid={true} alt="Card image" />
                         <Card.Body>
                         <Card.Title><a href="https://dal-cs-course-viewer.web.app/">Dalhousie University Computer Science Viewer</a></Card.Title>
@@ -95,7 +95,7 @@ export default class Experience extends Component{
                     </Card>
                 </CardDeck>
                 <Card id="githubCard">
-                    <Card.Header><strong>Other Fun Projects</strong></Card.Header>
+                    <Card.Header style={{fontSize: '1.5em'}}><strong>Other Fun Projects</strong></Card.Header>
                     <Card.Body>
                         <h4><a href="https://github.com/Plump-Panda">My Github</a></h4>
                         <br/>

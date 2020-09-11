@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
+import resume from '../resume/Résumé.pdf'
 
 export default class Intro extends Component{
     render(){
@@ -22,13 +23,13 @@ export default class Intro extends Component{
                                     <br/>
                                 <li>> Josh.workExperience.latest</li>
                                     <ul>=> Latest Work Experience</ul>
-                                    <ul>company: "Lockheed Martin CA</ul>
-                                    <ul>role: "Technical Co-op</ul>
-                                    <ul>startDate: "May 2020</ul>
-                                    <ul>endDate: "August 2020</ul>
+                                    <ul style={{marginLeft: '50px'}}>company: "Lockheed Martin CA</ul>
+                                    <ul style={{marginLeft: '50px'}}>role: "Technical Co-op</ul>
+                                    <ul style={{marginLeft: '50px'}}>startDate: "May 2020</ul>
+                                    <ul style={{marginLeft: '50px'}}>endDate: "August 2020</ul>
                                     <br/>
                                 <li>> Josh.resume</li>
-                                    <ul>=> "link my resume here"</ul>
+                                    <ul>=> <a href={resume} className="hrefRecolour">"joshuafung.pdf"</a></ul>
                                     <br/>
                                 <li>> Josh.email</li>
                                     <ul>=> <a className="hrefRecolour" href="mailto:js404839@dal.ca">"js404839@dal.ca"</a></ul>

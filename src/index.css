@@ -67,6 +67,16 @@ code {
   color: white;
 }
 
+.headerSection{
+  float: left;
+  width: 45%;
+}
+
+#dallogo{
+  width: 10%;
+  float: left;
+}
+
 .sectionPositioning{
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -89,6 +99,8 @@ code {
   padding-left: 150px;
   padding-right: 100px;
   margin-top: 50px;
+  font-family: 'Karla', sans-serif;
+
 }
 
 #githubCard{

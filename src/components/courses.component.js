@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
+import {Image} from 'react-bootstrap';
+import dallogo from '../images/dallogo.png';
 
 export default class Courses extends Component{
 
@@ -9,7 +11,19 @@ export default class Courses extends Component{
             <div id="coursesSection" className="sectionPositioning" >
                 <h2 id="coursesHeader">Education</h2>
                 <Card id="courseCardPositioning">
-                    <Card.Header><strong>Dalhousie University</strong><p>Computer Science B.S</p></Card.Header>
+                    <Card.Header>
+                        <Card.Img id="dallogo" variant="top" as={Image} src={dallogo} fluid={true} alt="Card image" />
+                        <div style={{marginTop: '1.5%'}}>
+                            <section className="headerSection">
+                                <p><strong>Dalhousie University</strong></p>
+                                <p>Computer Science B.S</p>
+                            </section>
+                            <section className="headerSection">
+                                <p style={{textAlign: "right"}}><i>2018 - 2020</i></p>
+                                <p style={{textAlign: "right"}}><i>Halifax, NS</i></p>
+                            </section>
+                        </div>
+                    </Card.Header>
                     <Card.Body>
                         <h4>Relavent Course Work</h4>
                         <br/>
