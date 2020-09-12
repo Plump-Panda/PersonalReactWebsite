@@ -7,7 +7,7 @@ export default class Intro extends Component{
         return(
             <div id="introSection" className="sectionPositioning">
                 <h2 id="coursesHeader">Hello world!</h2>
-                <Card id="introCardPositioning" style={{width: '30%'}}>
+                <Card id="introCardPositioning">
                     <Card.Header style={{backgroundColor: 'grey'}}></Card.Header>
                     <Card.Body style={{backgroundColor: '#594f4f'}}>
                         <Card.Text style={{color: '#dbd7d7'}}>
@@ -21,12 +21,15 @@ export default class Intro extends Component{
                                 <li>> Josh.expectedGraduation</li>
                                     <ul>=> "August 2022"</ul>
                                     <br/>
+                                <li>> Josh.interests</li>
+                                    <ul>=> ["Code","travelling","music","language","badminton"]</ul>
+                                    <br/>
                                 <li>> Josh.workExperience.latest</li>
                                     <ul>=> Latest Work Experience</ul>
-                                    <ul style={{marginLeft: '50px'}}>company: "Lockheed Martin CA</ul>
-                                    <ul style={{marginLeft: '50px'}}>role: "Technical Co-op</ul>
-                                    <ul style={{marginLeft: '50px'}}>startDate: "May 2020</ul>
-                                    <ul style={{marginLeft: '50px'}}>endDate: "August 2020</ul>
+                                    <ul style={{marginLeft: '50px'}}>company: "Lockheed Martin CA"</ul>
+                                    <ul style={{marginLeft: '50px'}}>role: "Technical Co-op"</ul>
+                                    <ul style={{marginLeft: '50px'}}>startDate: "May 2020"</ul>
+                                    <ul style={{marginLeft: '50px'}}>endDate: "August 2020"</ul>
                                     <br/>
                                 <li>> Josh.resume</li>
                                     <ul>=> <a href={resume} className="hrefRecolour">"joshuafung.pdf"</a></ul>

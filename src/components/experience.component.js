@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import {CardDeck} from 'react-bootstrap';
 import {Image} from 'react-bootstrap';
 import shipImage from '../images/lm.png';
-import reactImage from '../images/react.png';
+import startupImage from '../images/startup.jpg';
 import mywebsiteImage from '../images/mywebsite.jpg';
 import githubImage from '../images/github.png';
 import courseViewerImage from '../images/courseViewer.jpg';
@@ -39,7 +39,7 @@ export default class Experience extends Component{
                     </Card>
                     <Card className="experienceCard">
                         <Card.Header style={{fontSize: '1.5em'}}>Web Developer</Card.Header>
-                        <Card.Img variant="top" as={Image} src={reactImage} fluid={true} alt="Card image" />
+                        <Card.Img variant="top" as={Image} src={startupImage} fluid={true} alt="Card image" />
                         <Card.Body>
                         <Card.Title>Okeanos</Card.Title>
                         <Card.Text style={{textAlign:"center"}}>

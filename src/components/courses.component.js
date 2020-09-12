@@ -19,7 +19,7 @@ export default class Courses extends Component{
                                 <p>Computer Science B.S</p>
                             </section>
                             <section className="headerSection">
-                                <p style={{textAlign: "right"}}><i>2018 - 2020</i></p>
+                                <p style={{textAlign: "right"}}><i>2018 - 2022</i></p>
                                 <p style={{textAlign: "right"}}><i>Halifax, NS</i></p>
                             </section>
                         </div>
