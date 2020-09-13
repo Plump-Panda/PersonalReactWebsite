@@ -46,7 +46,7 @@ export default class Experience extends Component{
                             Worked in a team of 5 to develop a webpage from scratch using HTML5, CSS3, and Javascript.
                             Communicated effectively between app dev team and supervisor to ensure consistency across platforms.
                         </Card.Text>
-                        <section className="codeType" style={{marginTop: '75px'}}>
+                        <section className="codeType" style={{marginTop: '55px'}}>
                             <p className="codeTag">HTML</p><p className="codeTag">CSS</p><p className="codeTag">Javascript</p><p className="codeTag" id="green">Git</p>
                         </section>
                         </Card.Body>
@@ -70,9 +70,6 @@ export default class Experience extends Component{
                             <p className="codeTag" id="green">React</p><p className="codeTag" id="green">Bootstrap</p>
                         </section>
                         </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Created Sept 2020</small>
-                        </Card.Footer>
                     </Card>
                     <Card className="experienceCard">
                         <Card.Header style={{fontSize: '1.5em'}}>Fun Project!~</Card.Header>
@@ -89,9 +86,6 @@ export default class Experience extends Component{
                             <p className="codeTag" id="green">React</p><p className="codeTag" id="green">Bootstrap</p>
                         </section>
                         </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Created Sept 2020</small>
-                        </Card.Footer>
                     </Card>
                 </CardDeck>
                 <Card id="githubCard">

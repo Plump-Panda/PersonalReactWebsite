@@ -22,7 +22,7 @@ export default class Intro extends Component{
                                     <ul>=> "August 2022"</ul>
                                     <br/>
                                 <li>> Josh.interests</li>
-                                    <ul>=> ["Code","travelling","music","language","badminton"]</ul>
+                                    <ul>=> ["Code","travelling","music","k-dramas","badminton"]</ul>
                                     <br/>
                                 <li>> Josh.workExperience.latest</li>
                                     <ul>=> Latest Work Experience</ul>
